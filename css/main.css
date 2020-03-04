@@ -2,6 +2,15 @@
   display: none;
 }
 
-.Kill {
-  display: none;
+.kill {
+
+}
+
+.blank-1, .dress {
+  background-color: #e1c1d0;
+}
+
+.blank-2, .time {
+  background-color: #411c36;
+  color: #fff;
 }
