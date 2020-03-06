@@ -1,3 +1,7 @@
+html {
+  color: #2D102D;
+}
+
 .quote-2, .quote-3, .quote-4, .quote-5 {
   display: none;
 }
@@ -7,16 +11,18 @@
 }
 
 .split > span{
-  color: #fff
+  color: #C9273E;
 }
 
 .blank-1, .dress {
-  background-color: #e1c1d0;
+  background-color: #C9273E;
 }
 
 .blank-2, .time {
-  background-color: #411c36;
-  color: #fff;
+  background-color: #2D102D;
+  color: #C9273E;
 }
 
 .dress, .time {
+  font-family: 'Parisienne', cursive;
+}
