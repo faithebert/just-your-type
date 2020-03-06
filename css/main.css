@@ -3,7 +3,11 @@
 }
 
 .kill {
+  font-family: 'Kanit', sans-serif;
+}
 
+.split > span{
+  color: #fff
 }
 
 .blank-1, .dress {
@@ -15,6 +19,4 @@
   color: #fff;
 }
 
-
-font-family: 'Kanit', sans-serif;
-font-family: 'Parisienne', cursive;
+.dress, .time {
