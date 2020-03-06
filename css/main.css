@@ -4,7 +4,7 @@ html {
 }
 
 .grid {
-  height: 20em;
+  min-height: 20em;
 }
 
 .quote-3, .quote-4, .quote-5 {
@@ -30,4 +30,13 @@ html {
 
 .dress, .time {
   font-family: 'Parisienne', cursive;
+}
+
+.quote-2 {
+  background-color: #F0433A;
+}
+
+.quote-2 > p {
+  border-top: 3px solid #2D102D;
+  border-bottom: 3px solid #2D102D;
 }
