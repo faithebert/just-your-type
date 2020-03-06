@@ -1,8 +1,13 @@
 html {
   color: #2D102D;
+  font-family: 'Kanit', sans-serif;
 }
 
-.quote-2, .quote-3, .quote-4, .quote-5 {
+.grid {
+  height: 20em;
+}
+
+.quote-3, .quote-4, .quote-5 {
   display: none;
 }
 
