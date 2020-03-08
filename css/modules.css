@@ -1,7 +1,7 @@
 /*
  * Modulifier || Code released under the UNLICENSE
  * Code under other copyrights & licenses listed below.
- * https://modulifier.web-dev.tools/#responsive;images;embed;media-object;icons;hidden;positioning;accessibility;print
+ * https://modulifier.web-dev.tools/#responsive;embed;media-object;icons;hidden;positioning;accessibility;print
  */
 
 @-moz-viewport { width: device-width; scale: 1; }
@@ -72,37 +72,6 @@ textarea,
 [tabindex] {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-}
-
-img {
-  border: 0;
-}
-
-.img-flex,
-.img-flex img {
-  display: block;
-  width: 100%;
-}
-
-svg {
-  fill: currentColor;
-}
-
-svg:not(:root) {
-  overflow: hidden;
-}
-
-svg.img-flex {
-  width: 100%;
-  height: 100%;
-}
-
-.image-replacement, .ir {
-  overflow: hidden;
-  direction: ltr;
-  text-align: left;
-  text-indent: 100%;
-  white-space: nowrap;
 }
 
 .embed {
