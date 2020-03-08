@@ -1,12 +1,13 @@
 html {
   font-family: 'Kanit', sans-serif;
+  color: #F0F1F0;
 }
 
 .unit {
   min-height: 15em;
 }
 
-.quote-4, .quote-5 {
+.quote-5 {
   display: none;
 }
 
@@ -37,7 +38,6 @@ html {
 
 .quote-2 {
   background-color: #0084b6;
-  color: #F0F1F0;
 }
 
 .quote-2 > div:nth-child(2){
@@ -71,10 +71,44 @@ html {
   min-height: 10em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 75px;
-  margin-top: 125px;
+  margin-bottom: 100px;
+  margin-top: 75px;
   border: 3px solid #F0F1F0;
   -ms-transform: skewY(10deg);
   -webkit-transform: skewY(10deg);
   transform: skewY(10deg)
+}
+
+.italic{
+    animation:blinkingText 1.2s infinite;
+}
+
+@keyframes blinkingText{
+  0%{     color: #A71D2B;    }
+  10%{    color: #A71D2B;}
+  20%{    color: transparent; }
+  30%{    color:transparent;  }
+  40%{    color:#038C73;  }
+  50%{    color:#038C73;  }
+  60%{    color:#038C73;  }
+  70%{    color:transparent;  }
+  80%{    color:transparent;  }
+  100%{   color: #A71D2B;   }
+}
+
+0%{     color: #A71D2B;    }
+10%{    color: #A71D2B;}
+20%{    color: transparent; }
+30%{    color:transparent;  }
+40%{    color:#038C73;  }
+50%{    color:#038C73;  }
+60%{    color:#038C73;  }
+70%{    color:transparent;  }
+80%{    color:transparent;  }
+100%{   color: #A71D2B;   }
+}
+
+/* QUOTE 4 */
+.quote-4 {
+  background-color: #2039CC;
 }
