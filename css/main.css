@@ -60,3 +60,19 @@ html {
 }
 
 /* QUOTE 3 */
+
+.quote-3 {
+  background-color:#3f2328;
+}
+
+.quote-3 div:first-child {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+  margin-top: 125px;
+  border: 1px solid #FFFDE6;
+  -ms-transform: skewY(10deg);
+  -webkit-transform: skewY(10deg);
+  transform: skewY(10deg)
+}
