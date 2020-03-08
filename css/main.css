@@ -1,5 +1,4 @@
 html {
-  color: #2D102D;
   font-family: 'Kanit', sans-serif;
 }
 
@@ -10,6 +9,8 @@ html {
 .quote-3, .quote-4, .quote-5 {
   display: none;
 }
+
+/* QUOTE 1 */
 
 .kill {
   font-family: 'Kanit', sans-serif;
@@ -32,11 +33,14 @@ html {
   font-family: 'Parisienne', cursive;
 }
 
+/* QUOTE 2 */
+
 .quote-2 {
-  background-color: #F0433A;
+  background-color: #0084b6;
+  color: #F0F1F0;
 }
 
-.quote-2 > p {
-  border-top: 3px solid #2D102D;
-  border-bottom: 3px solid #2D102D;
+.quote-2 > div:nth-child(2){
+  border-top: 3px solid #F0F1F0;
+  border-bottom: 3px solid #F0F1F0;
 }
