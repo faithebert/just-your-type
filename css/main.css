@@ -2,11 +2,11 @@ html {
   font-family: 'Kanit', sans-serif;
 }
 
-.grid {
-  min-height: 20em;
+.unit {
+  min-height: 15em;
 }
 
-.quote-3, .quote-4, .quote-5 {
+.quote-4, .quote-5 {
   display: none;
 }
 
@@ -44,3 +44,19 @@ html {
   border-top: 3px solid #F0F1F0;
   border-bottom: 3px solid #F0F1F0;
 }
+
+.line-1 div  {
+    width: 2em;
+    height: .6em;
+    background-color: #F0F1F0;
+    opacity: 50%;
+}
+
+.line-2 div {
+    width: 2em;
+    height: .6em;
+    background-color: #F0F1F0;
+    opacity: 50%;
+}
+
+/* QUOTE 3 */
