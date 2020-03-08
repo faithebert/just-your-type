@@ -13,10 +13,6 @@ html {
 
 /* QUOTE 1 */
 
-.kill {
-  font-family: 'Kanit', sans-serif;
-}
-
 .split > span{
   color: #C9273E;
 }
@@ -30,7 +26,7 @@ html {
   color: #C9273E;
 }
 
-.dress, .time {
+.dress, .time, .cursive {
   font-family: 'Parisienne', cursive;
 }
 
@@ -83,6 +79,16 @@ html {
     animation:blinkingText 1.2s infinite;
 }
 
+/* QUOTE 4 */
+
+.quote-4 {
+  background-color: #044BD9;
+
+}
+
+
+/* BLINKING TEXT */
+
 @keyframes blinkingText{
   0%{     color: #A71D2B;    }
   10%{    color: #A71D2B;}
@@ -106,9 +112,4 @@ html {
 70%{    color:transparent;  }
 80%{    color:transparent;  }
 100%{   color: #A71D2B;   }
-}
-
-/* QUOTE 4 */
-.quote-4 {
-  background-color: #2039CC;
 }
