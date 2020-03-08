@@ -62,16 +62,18 @@ html {
 /* QUOTE 3 */
 
 .quote-3 {
-  background-color:#3f2328;
+  background-color:#080E33;
+  color: #F0F1F0;
 }
 
 .quote-3 div:first-child {
   width: 50%;
+  min-height: 10em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 75px;
   margin-top: 125px;
-  border: 1px solid #FFFDE6;
+  border: 3px solid #F0F1F0;
   -ms-transform: skewY(10deg);
   -webkit-transform: skewY(10deg);
   transform: skewY(10deg)
