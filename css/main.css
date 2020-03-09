@@ -10,11 +10,11 @@ html {
 /* QUOTE 1 */
 
 .split {
-  opacity: 40%;
+  opacity: .4;
 }
 .split > span{
   color: #0084b6;
-  opacity: 80%;
+  opacity: .8;
 }
 
 .blank-1, .quote-1 div:first-child {
@@ -45,14 +45,14 @@ html {
     width: 2em;
     height: .6em;
     background-color: #F0F1F0;
-    opacity: 50%;
+    opacity: .5;
 }
 
 .line-2 div {
     width: 2em;
     height: .6em;
     background-color: #F0F1F0;
-    opacity: 50%;
+    opacity: .5;
 }
 
 /* QUOTE 3 */
@@ -63,7 +63,7 @@ html {
 }
 
 .quote-3 div:first-child {
-  width: 50%;
+  width: .5;
   min-height: 10em;
   margin-left: auto;
   margin-right: auto;
@@ -80,12 +80,12 @@ html {
 .quote-4 {
   background-color: #0084b6;
   color: #01087C;
-  opacity: 60%;
+  opacity: .6;
 }
 
 .quote-4 div:last-child{
   color: #F0F1F0;
-  opacity: 60%;
+  opacity: .6;
 }
 
 .italic{
@@ -101,12 +101,12 @@ html {
 
 .quote-5 div:first-child {
   color: #01087C;
-  opacity: 30%;
+  opacity: .3;
 }
 
 .quote-5 div:last-child {
   background-color: #F0F1F0;
-  opacity: 30%;
+  opacity: .3;
 }
 
 /* BLINKING TEXT + GLOW EFFECT */
