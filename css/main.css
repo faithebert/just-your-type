@@ -63,7 +63,7 @@ html {
 }
 
 .quote-3 div:first-child {
-  width: .5;
+  width: 0.5;
   min-height: 10em;
   margin-left: auto;
   margin-right: auto;
@@ -112,26 +112,25 @@ html {
 /* BLINKING TEXT + GLOW EFFECT */
 
 @keyframes blinkingText{
-  0%{     color: #A71D2B;    }
-  10%{    color: #A71D2B;}
-  20%{    color: transparent; }
-  30%{    color:transparent;  }
-  40%{    color:#038C73;  }
-  50%{    color:#038C73;  }
-  60%{    color:#038C73;  }
-  70%{    color:transparent;  }
-  80%{    color:transparent;  }
-  100%{   color: #A71D2B;   }
+  0%{color: #A71D2B;}
+  10%{color: #A71D2B;}
+  20%{color: transparent;}
+  30%{color:transparent;}
+  40%{color:#038C73;}
+  50%{color:#038C73;}
+  60%{color:#038C73;}
+  70%{color:transparent;}
+  80%{color:transparent;}
+  100%{color: #A71D2B;}
 }
 
-0%{     color: #A71D2B;    }
-10%{    color: #A71D2B;}
-20%{    color: transparent; }
-30%{    color:transparent;  }
-40%{    color:#038C73;  }
-50%{    color:#038C73;  }
-60%{    color:#038C73;  }
-70%{    color:transparent;  }
-80%{    color:transparent;  }
-100%{   color: #A71D2B;   }
-}
+0%{color: #A71D2B;}
+10%{color: #A71D2B;}
+20%{color: transparent;}
+30%{color:transparent;}
+40%{color:#038C73;}
+50%{color:#038C73;}
+60%{color:#038C73;}
+70%{color:transparent;}
+80%{color:transparent;}
+100%{color: #A71D2B;}
