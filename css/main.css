@@ -1,5 +1,5 @@
 html {
-  font-family: "Kanit", sans-serif;
+  font-family: Kanit, sans-serif;
   color: #f0f1f0;
 }
 
@@ -12,7 +12,8 @@ body > div {
 .split {
   opacity: .4;
 }
-.split > span{
+
+.split > span {
   color: #0084b6;
   opacity: .8;
 }
@@ -27,7 +28,7 @@ body > div {
 }
 
 .cursive {
-  font-family: "Parisienne", cursive;
+  font-family: Parisienne, cursive;
 }
 
 /* QUOTE 2 */
@@ -41,18 +42,18 @@ body > div {
   border-bottom: 3px solid #f0f1f0;
 }
 
-.line-1 div  {
-    width: 2em;
-    height: .6em;
-    background-color: #f0f1f0;
-    opacity: .5;
+.line-1 div {
+  width: 2em;
+  height: .6em;
+  background-color: #f0f1f0;
+  opacity: .5;
 }
 
 .line-2 div {
-    width: 2em;
-    height: .6em;
-    background-color: #f0f1f0;
-    opacity: .5;
+  width: 2em;
+  height: .6em;
+  background-color: #f0f1f0;
+  opacity: .5;
 }
 
 /* QUOTE 3 */
@@ -83,13 +84,13 @@ body > div {
   opacity: .6;
 }
 
-.quote-4 div:last-child{
+.quote-4 div:last-child {
   color: #f0f1f0;
   opacity: .6;
 }
 
-.italic{
-    animation: blinkingText 1.2s infinite;
+.italic {
+  animation: blinkingText 1.2s infinite;
 }
 
 /* QUOTE 5 */
@@ -109,18 +110,48 @@ body > div {
   opacity: .3;
 }
 
-/* BLINKING TEXT + GLOW EFFECT */
+/* BLINKING TEXT */
 
-@keyframes blinkingText{
-  0%{color: #a71D2b;}
-  10%{color: #a71D2b;}
-  20%{color: transparent;}
-  30%{color: transparent;}
-  40%{color: #038c73;}
-  50%{color: #038c73;}
-  60%{color: #038c73;}
-  70%{color: transparent;}
-  80%{color: transparent;}
-  100%{color: #a71D2b;}
+@keyframes blinkingText {
+
+  0% {
+    color: #a71d2b;
+  }
+
+  10% {
+    color: #a71d2b;
+  }
+
+  20% {
+    color: transparent;
+  }
+
+  30% {
+    color: transparent;
+  }
+
+  40% {
+    color: #038c73;
+  }
+
+  50% {
+    color: #038c73;
+  }
+
+  60% {
+    color: #038c73;
+  }
+
+  70% {
+    color: transparent;
+  }
+
+  80% {
+    color: transparent;
+  }
+
+  100% {
+    color: #a71d2b;
+  }
 
 }
