@@ -4,11 +4,11 @@ html {
 }
 
 .grid {
-  min-height: 15em;
+  min-height: 10em;
 }
 
-.quote-5 {
-  display: none;
+.extra-light {
+  font-weight: lighter;
 }
 
 /* QUOTE 1 */
@@ -75,16 +75,39 @@ html {
   transform: skewY(10deg)
 }
 
+/* QUOTE 4 */
+
+.quote-4 {
+  background-color: #0084b6;
+  color: #01087C;
+  opacity: 60%;
+}
+
+.quote-4 div:last-child{
+  color: #F0F1F0;
+  opacity: 60%;
+}
+
 .italic{
     animation:blinkingText 1.2s infinite;
 }
 
-/* QUOTE 4 */
+/* QUOTE 5 */
 
-.quote-4 {
-  background-color: #044BD9;
+.quote-5 {
+  background-color: #4048C9;
+  color: #080E33;
 }
 
+.quote-5 div:first-child {
+  color: #01087C;
+  opacity: 30%;
+}
+
+.quote-5 div:last-child {
+  background-color: #F0F1F0;
+  opacity: 30%;
+}
 
 /* BLINKING TEXT */
 
