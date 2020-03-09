@@ -4,7 +4,7 @@ html {
 }
 
 .grid {
-  min-height: 10em;
+  min-height: 40em;
 }
 
 .extra-light {
@@ -13,20 +13,24 @@ html {
 
 /* QUOTE 1 */
 
+.split {
+  opacity: 40%;
+}
 .split > span{
-  color: #C9273E;
+  color: #0084b6;
+  opacity: 80%;
 }
 
-.blank-1, .dress {
-  background-color: #C9273E;
+.blank-1, .quote-1 div:first-child {
+  background-color: #4048C9;
 }
 
-.blank-2, .time {
-  background-color: #2D102D;
-  color: #C9273E;
+.blank-2, .quote-1 div:last-child {
+  background-color: #080E33;
+  color: #0084b6;
 }
 
-.dress, .time, .cursive {
+.cursive {
   font-family: 'Parisienne', cursive;
 }
 
@@ -109,7 +113,7 @@ html {
   opacity: 30%;
 }
 
-/* BLINKING TEXT */
+/* BLINKING TEXT + GLOW EFFECT */
 
 @keyframes blinkingText{
   0%{     color: #A71D2B;    }
