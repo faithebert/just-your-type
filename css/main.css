@@ -37,7 +37,7 @@ body > div {
   background-color: #0084b6;
 }
 
-.quote-2 > div:nth-child(2) p {
+.quote-2 > div:nth-child(2) h1 {
   border-top: 3px solid #f0f1f0;
   border-bottom: 3px solid #f0f1f0;
 }
