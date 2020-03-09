@@ -1,9 +1,9 @@
 html {
-  font-family: 'Kanit', sans-serif;
-  color: #F0F1F0;
+  font-family: "Kanit", sans-serif;
+  color: #f0f1f0;
 }
 
-.grid {
+body > div {
   min-height: 40em;
 }
 
@@ -18,16 +18,16 @@ html {
 }
 
 .blank-1, .quote-1 div:first-child {
-  background-color: #4048C9;
+  background-color: #4048c9;
 }
 
 .blank-2, .quote-1 div:last-child {
-  background-color: #080E33;
+  background-color: #080e33;
   color: #0084b6;
 }
 
 .cursive {
-  font-family: 'Parisienne', cursive;
+  font-family: "Parisienne", cursive;
 }
 
 /* QUOTE 2 */
@@ -37,29 +37,29 @@ html {
 }
 
 .quote-2 > div:nth-child(2) p {
-  border-top: 3px solid #F0F1F0;
-  border-bottom: 3px solid #F0F1F0;
+  border-top: 3px solid #f0f1f0;
+  border-bottom: 3px solid #f0f1f0;
 }
 
 .line-1 div  {
     width: 2em;
     height: .6em;
-    background-color: #F0F1F0;
+    background-color: #f0f1f0;
     opacity: .5;
 }
 
 .line-2 div {
     width: 2em;
     height: .6em;
-    background-color: #F0F1F0;
+    background-color: #f0f1f0;
     opacity: .5;
 }
 
 /* QUOTE 3 */
 
 .quote-3 {
-  background-color:#080E33;
-  color: #F0F1F0;
+  background-color: #080e33;
+  color: #f0f1f0;
 }
 
 .quote-3 div:first-child {
@@ -69,57 +69,58 @@ html {
   margin-right: auto;
   margin-bottom: 100px;
   margin-top: 75px;
-  border: 3px solid #F0F1F0;
+  border: 3px solid #f0f1f0;
   -ms-transform: skewY(10deg);
   -webkit-transform: skewY(10deg);
-  transform: skewY(10deg)
+  transform: skewY(10deg);
 }
 
 /* QUOTE 4 */
 
 .quote-4 {
   background-color: #0084b6;
-  color: #01087C;
+  color: #01087c;
   opacity: .6;
 }
 
 .quote-4 div:last-child{
-  color: #F0F1F0;
+  color: #f0f1f0;
   opacity: .6;
 }
 
 .italic{
-    animation:blinkingText 1.2s infinite;
+    animation: blinkingText 1.2s infinite;
 }
 
 /* QUOTE 5 */
 
 .quote-5 {
-  background-color: #4048C9;
-  color: #080E33;
+  background-color: #4048c9;
+  color: #080e33;
 }
 
 .quote-5 div:first-child {
-  color: #01087C;
+  color: #01087c;
   opacity: .3;
 }
 
 .quote-5 div:last-child {
-  background-color: #F0F1F0;
+  background-color: #f0f1f0;
   opacity: .3;
 }
 
 /* BLINKING TEXT + GLOW EFFECT */
 
 @keyframes blinkingText{
-  0%{color: #A71D2B;}
-  10%{color: #A71D2B;}
+  0%{color: #a71D2b;}
+  10%{color: #a71D2b;}
   20%{color: transparent;}
-  30%{color:transparent;}
-  40%{color:#038C73;}
-  50%{color:#038C73;}
-  60%{color:#038C73;}
-  70%{color:transparent;}
-  80%{color:transparent;}
-  100%{color: #A71D2B;}
+  30%{color: transparent;}
+  40%{color: #038c73;}
+  50%{color: #038c73;}
+  60%{color: #038c73;}
+  70%{color: transparent;}
+  80%{color: transparent;}
+  100%{color: #a71D2b;}
+
 }
